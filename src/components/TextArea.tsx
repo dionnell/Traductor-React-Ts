@@ -11,7 +11,7 @@ interface Props  {
 const commonStyles = {
     border: 0,
     height: '200px',
-    resize: 'none',
+    resize: 'none' as 'none',
 }
 
 const getPlacerholader = ({type, loading}: {type: SectionTypes, loading?: boolean}) => {
