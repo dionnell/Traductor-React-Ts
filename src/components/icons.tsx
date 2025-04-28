@@ -1,5 +1,5 @@
-export const ArrowIcons = () => (
-    <svg width="24px" height="24px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const ArrowIcons = ({width=24, height=24}) => (
+    <svg width={width} height={height} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M5 16V13L16 13V11L5 11L5 8H4L3.93403e-07 12L4 16H5Z" fill="#000000"/>
         <path d="M11 8L11 5L8.74227e-08 5L0 3L11 3V4.37112e-08L12 0L16 4L12 8H11Z" fill="#000000"/>
     </svg>

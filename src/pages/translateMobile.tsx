@@ -63,12 +63,14 @@ export const TranslateMobile = () => {
                 onChange={setFromLanguage}
                 />
           </Col>
-          <Col xs='auto'>
+          <Col xs='auto' style={{ width: 20, height: 20, padding: 0 }}>
             <Button
+              style={{ width: 20, height: 20, padding: 0 }}
               variant='link'
               disabled= {fromLanguage === AUTO_LANGUAGE} 
               onClick={interchangeLaguage}>
-              <ArrowIcons/>
+              <ArrowIcons  width={15} height={15}
+              />
             </Button>
           </Col>
           <Col>
